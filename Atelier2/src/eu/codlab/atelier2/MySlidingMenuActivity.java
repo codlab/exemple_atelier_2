@@ -25,12 +25,4 @@ public class MySlidingMenuActivity extends SlidingFragmentActivity {
 		
 		this.setBehindContentView(R.layout.left_menu);
 	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.activity_my_sliding_menu, menu);
-		return true;
-	}
-
 }
